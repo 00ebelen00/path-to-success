@@ -1,0 +1,262 @@
+/* CSS BY Belen Estrada */
+/* IMPORTED FONTS */
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --Teal: #4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57; 
+    --White: #ffffff;
+    --Pink:#D9526F;
+    --Dark-gray:#1E1E1E;
+
+  }
+
+/* GLOBAL STYLES (mobile first/small) */
+@media only screen and (max-width: 450px) {
+
+body{
+    font-family: Inter;
+    background-color: var(--Purple);
+    resize: none;
+    width: 100%;
+}
+
+
+h1 {
+    font-family: Kavoon;
+    font-size: 3em;
+    margin: 0;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: Kavoon;
+    margin-top: 10px;
+    color: #ffffff;
+}
+h3{
+    font-size: 1.5em;
+    color: var(--Yellow);
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+h4{
+    font-size: 1.15em;
+    color: #4CA7C0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Top Page Style */
+.subtitle {
+    line-height: 15px;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    font-size: smaller;
+}
+.topPage {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Nav Style */
+.navMenu{
+    text-align: center;
+    background-color: #E9BB57;
+    padding: 2%;
+    display: flex;
+    flex-flow: column;
+
+}
+.navbar > p{
+    background-color: var(--White);
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+nav a { 
+    text-decoration: none
+    }
+
+
+/*Our Services Style*/
+.serviceTitle {
+    margin-left: 0.4em;
+}
+
+.service {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 15px;
+    
+}
+/*Why Choose Us*/
+.ChooseUs{
+    background-color: var(--Pink);
+    color: var(--White);
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container{  
+    padding: 15px;
+    color: var(--Dark-gray);
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: bold;
+    align-items: center;
+}
+
+.box1 { 
+    width: 9.375em;
+    height: 6em;
+    border-radius: .8em;
+    background-color: var(--Teal);
+    padding: 1.3em;
+    margin-top: 0.6em;
+}
+.box2 {
+    width: 9.375em;
+    height: 6em;
+    border-radius: .8em;
+    background-color: var(--Purple);
+    padding: 1.3em;
+    margin-top: 0.6em;
+}
+.box3 {
+    width: 9.375em;
+    height: 6em;
+    border-radius: .8em;
+    background-color: var(--Yellow);
+    padding: 1.3em;
+    margin-top: 0.6em;
+}
+.box4 {
+    width: 9.375em;
+    height: 6em;
+    border-radius: .8em;
+    background-color: var(--White);
+    padding: 1.3em;
+    margin-top: 0.6em;
+}
+
+/*Prices*/
+.priceTitle {
+    margin-left: 0.4em;
+}  
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight:bold;
+    width: 80%;
+    background-color: #E9BB57;
+    margin-top: .4em;
+}
+div {
+    margin-bottom:1.3em;
+    margin-top: 1.3em; 
+}
+
+td{
+    border: .3em solid var(--Yellow);
+    background-color: #ffffff; 
+    width: 100%;
+    padding: 1.3em;
+    text-align: center; 
+}
+th{
+    padding: 10px;
+}
+
+
+/*1step style*/
+.firstStep{
+    background: #D9526F;
+    padding-bottom: 1.6em;
+    padding-top: .8em;
+    text-align: center;
+}
+.stepText {
+    color: #ffffff;
+    margin-top: .5em;
+}
+button {
+    padding: .9em 1.6em;
+    font-size: .9em; 
+    border-radius: .8em;
+    box-shadow: 0 .3em #1E1E1E;
+    width: 85%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+
+/*footer style */
+footer {
+    text-align: center;
+    color: #ffffff;
+    font-size: smaller;
+    margin-top:.6em;
+    margin-bottom:.6em;
+    padding:1.6em;
+}
+footer a {
+    color: #ffffff;
+}
+}
