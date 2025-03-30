@@ -135,96 +135,79 @@ nav a {
 .serviceTitle {
     margin-left: 0.4em;
 }
-
 .service {
     background-color: #ffffff;
     border-radius: 12px;
     padding: 25px;
-    margin: 15px;
-    
+    margin: 15px;   
 }
+	
 /*Why Choose Us*/
-.ChooseUs{
-    background-color: var(--Pink);
-    color: var(--White);
-    padding-top: 10px;
-    text-align: center;
-}
-
-.container{  
-    padding: 15px;
-    color: var(--Dark-gray);
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-weight: bold;
-    align-items: center;
-}
-
-.box1 { 
-    width: 9.375em;
-    height: 6em;
-    border-radius: .8em;
-    background-color: var(--Teal);
-    padding: 1.3em;
-    margin-top: 0.6em;
-}
-.box2 {
-    width: 9.375em;
-    height: 6em;
-    border-radius: .8em;
-    background-color: var(--Purple);
-    padding: 1.3em;
-    margin-top: 0.6em;
-}
-.box3 {
-    width: 9.375em;
-    height: 6em;
-    border-radius: .8em;
-    background-color: var(--Yellow);
-    padding: 1.3em;
-    margin-top: 0.6em;
-}
-.box4 {
-    width: 9.375em;
-    height: 6em;
-    border-radius: .8em;
-    background-color: var(--White);
-    padding: 1.3em;
-    margin-top: 0.6em;
-}
-
-/*Prices*/
-.priceTitle {
-    margin-left: 0.4em;
-}  
-
-table{
-    margin-left: auto;
-    margin-right: auto;
-    font-weight:bold;
-    width: 80%;
-    background-color: #E9BB57;
-    margin-top: .4em;
-}
-div {
-    margin-bottom:1.3em;
-    margin-top: 1.3em; 
-}
-
-td{
-    border: .3em solid var(--Yellow);
-    background-color: #ffffff; 
-    width: 100%;
-    padding: 1.3em;
-    text-align: center; 
-}
-th{
+.test2 {
+    background-color: #D9526F;
     padding: 10px;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+    text-align: center;
+    background-color: #D9526F;
+  }
+.box1 {
+    background-color:#4CA7C0;
+    border-radius: 12px;
+    padding: 50px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
 
+.box2 {
+    background-color:#484FB7;
+    border-radius: 12px;
+    padding: 50px;
+    margin-right: 12px;
+    margin-top: 10px;
+}
+.box3 {
+    background-color:#E9BB57;
+    border-radius: 12px;
+    padding: 50px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+.box4 {
+    background-color:#ffffff;
+    border-radius: 12px;
+    padding: 50px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+/*Table Styles*/
+table {
+    margin-top: .9em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+tr, td {
+    border: .3em solid var(--Yellow);
+}
+td, th {
+    text-align: center;
+    padding: 1.3em .6em;
+    background-color: #ffffff;
+}
+th{
+    background-color: #E9BB57;
+}
+.priceTitle {
+    margin-left: .9em;
+}
+	
 /*1step style*/
 .firstStep{
     background: #D9526F;
